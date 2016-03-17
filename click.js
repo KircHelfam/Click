@@ -58,7 +58,5 @@ var defaultOptions = {
     bubbles: true,
     cancelable: true
 }
-while(true)
-{
+
 simulate(document.getElementById("bigCookie"), "click");
-}
