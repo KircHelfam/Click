@@ -48,8 +48,8 @@ var eventMatchers = {
     'MouseEvents': /^(?:click|dblclick|mouse(?:down|up|over|move|out))$/
 }
 var defaultOptions = {
-    pointerX: 128,
-    pointerY: 128,
+    pointerX: 0,
+    pointerY: 0,
     button: 0,
     ctrlKey: false,
     altKey: false,
@@ -59,4 +59,4 @@ var defaultOptions = {
     cancelable: true
 }
 
-simulate(document.getElementById("bigCookie"), "click");
+simulate(document.getElementById("bigCookie"), "dbclick");
