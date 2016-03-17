@@ -50,7 +50,7 @@ var eventMatchers = {
 var defaultOptions = {
     pointerX: 128,
     pointerY: 128,
-    button: 0,
+    button: 1,
     ctrlKey: false,
     altKey: false,
     shiftKey: false,
