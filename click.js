@@ -58,14 +58,14 @@ var defaultOptions = {
     bubbles: true,
     cancelable: true
 }
-function beginClick(){
-        simulate(document.getElementById("bigCookie"), "dblclick");
-    }
+//function beginClick(){
+        simulate(document.getElementById("bigCookie"), "click");
+ //   }
 
 
-var i =0;
+/*var i =0;
     while(i<100)
     {
         setTimeout(beginClick,1000);
         i++;
-    }
+    }*/
