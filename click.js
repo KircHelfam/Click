@@ -67,4 +67,5 @@ var i = 0 ;
     while(i<100)
     {
         simulate(document.getElementById("bigCookie"), "click");
+        i++;
     }
