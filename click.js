@@ -59,13 +59,13 @@ var defaultOptions = {
     cancelable: true
 }
 //function beginClick(){
-        simulate(document.getElementById("bigCookie"), "click");
+        simulate(document.getElementById("iframeResult"), "click");
  //   }
 
 
-var i = 0 ;
+/*var i = 0 ;
     while(i<100)
     {
         simulate(document.getElementById("bigCookie"), "click");
         i++;
-    }
+    }*/
