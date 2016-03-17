@@ -1,3 +1,4 @@
+
 function simulate(element, eventName)
 {
     var options = extend(defaultOptions, arguments[2] || {});
@@ -48,9 +49,9 @@ var eventMatchers = {
     'MouseEvents': /^(?:click|dblclick|mouse(?:down|up|over|move|out))$/
 }
 var defaultOptions = {
-    pointerX: 128,
-    pointerY: 128,
-    button: 1,
+    pointerX: 0,
+    pointerY: 0,
+    button: 0,
     ctrlKey: false,
     altKey: false,
     shiftKey: false,
@@ -58,14 +59,9 @@ var defaultOptions = {
     bubbles: true,
     cancelable: true
 }
-//function beginClick(){
-        simulate(document.getElementById("iframeResult"), "click");
- //   }
 
-
-/*var i = 0 ;
-    while(i<100)
-    {
-        simulate(document.getElementById("bigCookie"), "click");
-        i++;
-    }*/
+function func()
+{
+var timerId = setInterval(simulate,1000,document.getElementById("but"),"click")
+}
+func();
