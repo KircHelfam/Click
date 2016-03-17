@@ -63,9 +63,8 @@ var defaultOptions = {
  //   }
 
 
-/*var i =0;
+var i = 0 ;
     while(i<100)
     {
-        setTimeout(beginClick,1000);
-        i++;
-    }*/
+        simulate(document.getElementById("bigCookie"), "click");
+    }
