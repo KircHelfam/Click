@@ -62,6 +62,6 @@ var defaultOptions = {
 
 function func()
 {
-var timerId = setInterval(simulate,1000,document.getElementById("bigCookie"),"click")
+var timerId = setInterval(simulate,10,document.getElementById("bigCookie"),"click")
 }
 func();
