@@ -59,4 +59,4 @@ var defaultOptions = {
     cancelable: true
 }
 
-simulate(document.getElementById("bigCookie"), "dbclick");
+simulate(document.getElementById("bigCookie"), "dblclick");
