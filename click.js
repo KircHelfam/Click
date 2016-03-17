@@ -48,8 +48,8 @@ var eventMatchers = {
     'MouseEvents': /^(?:click|dblclick|mouse(?:down|up|over|move|out))$/
 }
 var defaultOptions = {
-    pointerX: 0,
-    pointerY: 0,
+    pointerX: 128,
+    pointerY: 128,
     button: 0,
     ctrlKey: false,
     altKey: false,
@@ -58,5 +58,14 @@ var defaultOptions = {
     bubbles: true,
     cancelable: true
 }
+function beginClick(){
+        simulate(document.getElementById("bigCookie"), "dblclick");
+    }
 
-simulate(document.getElementById("bigCookie"), "dblclick");
+
+var i =0;
+    while(i<100)
+    {
+        setTimeout(beginClick,1000);
+        i++;
+    }
