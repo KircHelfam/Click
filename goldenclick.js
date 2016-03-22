@@ -63,5 +63,6 @@ var defaultOptions = {
 function func()
 {
 var timerId = setInterval(simulate,1000,document.getElementById("goldenCookie"),"click")
+var timerId1 = setInterval(simulate,1000,document.getElementById("seasonPopup"),"click")
 }
 func();
